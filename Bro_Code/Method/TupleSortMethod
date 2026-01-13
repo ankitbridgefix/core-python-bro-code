@@ -1,0 +1,8 @@
+stud = (("Ram","F",80),("Ankit","B",98),("Zainam","A",89))
+
+grade = lambda grades:grades[1]
+studdent =sorted(stud,key=grade,reverse=True)
+for i in studdent:
+    print(i)
+    
+    
